@@ -2,14 +2,12 @@
 <HTML>
 <head>
   <script>
-
 function setCookie(proffession,cvalue,exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires=" + d.toGMTString();
     document.cookie = proffession+"="+cvalue+"; "+expires;
 }
-
 function getCookie(proffession) {
     var work = proffession + "=";
     var ca = document.cookie.split(';');
@@ -24,19 +22,17 @@ function getCookie(proffession) {
     }
     return "";
 }
-
 function checkCookie() {
     var user=getCookie("usertype");
     if (user != "") {
-        alert("Welcome back you are viewing as a " + user );
+        alert("Welcome back you are a currently viewing as a " + user);
     } else {
-       user = prompt("Please enter your current profession in the soccer world :","");
+       user = prompt("Please enter your current proffession in the soccer world :","");
        if (user != "" && user != null) {
            setCookie("usertype", user, 30);
        }
     }
 }
-
 </script>  
 
 
@@ -52,9 +48,8 @@ function checkCookie() {
 	</head>
 	
 	<body onload="checkCookie()">
-		<h1>You are viewing as a 
-			<script>  
-				user;
+		<h1>You are viewing as a <script> 
+			user;
 			</script> </h1>
 		
 		<h1>Resources</h1>
@@ -76,3 +71,5 @@ function checkCookie() {
 		
 		
 		
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
