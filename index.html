@@ -28,7 +28,7 @@ function getCookie(profession) {
 function checkCookie() {
     var user=getCookie("usertype");
     if (user != "") {
-        alert("Welcome back you are viewing as a" user " !");
+        alert("Welcome back you are viewing as a " + user );
     } else {
        user = prompt("Please enter your current profession in the soccer world :","");
        if (user != "" && user != null) {
