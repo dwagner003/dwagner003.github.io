@@ -27,14 +27,13 @@ function checkCookie() {
     if (user != "") {
         alert("Welcome back you are a currently viewing as a " + user);
     } else {
-       user = prompt("Please enter your current proffession in the soccer world :","");
+       user = prompt("Please enter your current profession in the soccer world :","");
        if (user != "" && user != null) {
            setCookie("usertype", user, 30);
        }
     }
 }
-</script>  
-
+</script> 
 
  
 <meta charset='utf-8'>
@@ -50,8 +49,7 @@ function checkCookie() {
 	<body onload="checkCookie()">
 		<h1>You are viewing as a
 			<script> 
-			allCookies = printCookies();
-document.write(allCookies);
+			user
 			</script> 
 		</h1>
 		
