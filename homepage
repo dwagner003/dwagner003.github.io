@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "Wagner">
+<HTML>
+<head>
+<style>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+  
+
+	
+
+  
+    
+   
+		<TITLE>Home Page</TITLE
+	</head>
+  <body>
+  <h1>Project Referee </h1>
+  <p>The purpose of this website is to give some general background about two of the worlds most well known referees. 
+  Mark Geiger of the United States and Pierluigi Collina of Italy along with the good that the proffessional referees organization 
+  can provide for referees. I also have included a quiz where you can test basic soccer and referee knowledge. PLease enjot </p>
+  </body>
+	
+	</HTML>
