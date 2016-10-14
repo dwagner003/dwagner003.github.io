@@ -1,0 +1,22 @@
+
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+	
+h2 {
+    color: red;
+    text-align: center;
+}
+h3 {
+    color: brown;
+    text-align: center;
+}
+	
+p {
+    font-family: verdana;
+    font-size: 20px;
+    }
