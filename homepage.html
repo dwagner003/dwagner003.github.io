@@ -2,6 +2,12 @@
 <HTML>
 <head>
  <link rel="stylesheet" type="text/css" href="stylesheets/homepage.css">
+	<script>function changePic(img) 
+{
+   if(img.src.match(/blank/)) img.src = "images/refpic1.jpg";
+   else img.src = "images/refpic2.jpg";
+}
+		</script>
 
 	<script>
 function setCookie(proffession,cvalue,exdays) {
@@ -76,7 +82,7 @@ function checkCookie() {
     </div>
 	<div class="imgContainer">
         <script type="text/javascript" src="javascripts/changePic.js"></script>
-       <img src="images/refpic1.jpg" id="image1" onclick= javascripts/changePic.js(this) />
+       <img src="images/refpic1.jpg" id="image1" onclick= changePic(this) />
 		
  
         
