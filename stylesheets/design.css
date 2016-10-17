@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+	
+h2 {
+    color: green;
+    text-align: center;
+}
+h3 {
+    color: purple;
+    text-align: center;
+}
+	
+p {
+    font-family: red Serif;
+    font-size: 20px;
+    }
